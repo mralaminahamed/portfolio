@@ -18,9 +18,9 @@ export default defineConfig(
                     /* enable service worker on development */
                     devOptions: {
                         enabled: true,
-                        navigateFallback: "offline.html"
+                        // navigateFallback: "offline.html"
                     },
-                    registerType: 'autoUpdate',
+                    // registerType: 'autoUpdate',
                     strategies: "injectManifest",
                     srcDir: "./src/pwa/",
                     filename: "service-worker.ts",

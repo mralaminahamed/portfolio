@@ -5,6 +5,8 @@ export default {
   "background_color": "#5a0fc8",
   "theme_color": "#5a0fc8",
   "display": "standalone",
+  "id": "/?pwa=1",
+  "start_url": "/?attempt=pwa",
   "icons": [
     {
       "src": "/images/pwa/icon-maskable.png",
