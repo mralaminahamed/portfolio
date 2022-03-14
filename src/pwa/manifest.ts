@@ -1,7 +1,7 @@
 export default {
-  "name": "Vite PWA",
-  "short_name": "Vite PWA",
-  "description": "A Vite starter app ready-to-go as a Progressive Web App.",
+  "name": "Al Amin Ahamed",
+  "short_name": "Al Amin",
+  "description": "A full stack developer",
   "background_color": "#5a0fc8",
   "theme_color": "#5a0fc8",
   "display": "standalone",

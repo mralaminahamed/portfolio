@@ -1,7 +1,10 @@
+// External dependencies
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+
+// Internal dependencies
+import '@/assets/sass/index.scss'
+import App from '@/components/App'
 
 ReactDOM.render(
   <React.StrictMode>
