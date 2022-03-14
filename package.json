@@ -1,0 +1,24 @@
+{
+  "name": "vite-pwa-app",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "workbox-routing": "^6.5.1",
+    "workbox-strategies": "^6.5.1",
+    "workbox-recipes": "^6.5.1"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.39",
+    "@types/react-dom": "^17.0.13",
+    "@vitejs/plugin-react": "^1.2.0",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6",
+    "vite-plugin-pwa": "^0.11.13"
+  }
+}
