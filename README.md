@@ -1,11 +1,87 @@
-# Vite PWA
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/main/src/images/logo.png" width="100" />
+</div>
+<h1 align="center">
+  brittanychiang.com - v4
+</h1>
+<p align="center">
+  The fourth iteration of <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://www.netlify.com/" target="_blank">Netlify</a>
+</p>
+<p align="center">
+  Previous iterations:
+  <a href="https://github.com/bchiang7/v1" target="_blank">v1</a>,
+  <a href="https://github.com/bchiang7/v2" target="_blank">v2</a>,
+  <a href="https://github.com/bchiang7/bchiang7.github.io" target="_blank">v3</a>
+</p>
+<p align="center">
+  <a href="https://app.netlify.com/sites/alamin-ahamed/deploys" target="_blank">
+    <img src="https://api.netlify.com/api/v1/badges/1b909778-27d1-4df4-81fc-94f51393805b/deploy-status" alt="Netlify Status" />
+  </a>
+</p>
 
-Welcome to your new PWA, powered by [Vite](https://vitejs.dev/), [Vite Plugin PWA](https://github.com/antfu/vite-plugin-pwa), and [Workbox](https://developers.google.com/web/tools/workbox)! There are three main commands for you to run to start developing your PWA:
+![demo](https://raw.githubusercontent.com/bchiang7/v4/main/src/images/demo.png)
 
-- `npm run dev` - Run the development server to develop your PWA
-- `npm run build` - Create a production build of your site, by default into the `dist` directory
-- `npm run serve` - Preview your production build
+## 🚨 Forking this repo (please read!)
 
-## Powerful PWAs
+Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
 
-This starter is only the beginning. [Learn more](https://web.dev/progressive-web-apps/) about how to take this codebase and improve the install experience, create an app-like user experience, make your [offline experience even better](https://web.dev/reliable/). Then, [make it powerful](https://chromeos.dev/en/web/powerful-pwas) by adding new web APIs to supercharge your user experience. You can even [build a checklist of capabilities](https://chromeos.dev/en/web/powerful-pwas#your-pwa-checklist) you want to add, or see checklists for different kinds of apps you may want to build.
+I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+
+Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+
+### TL;DR
+
+Yes, you can fork this repo. Please give me proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+
+## 🛠 Installation & Set Up
+
+1. Install the Gatsby CLI
+
+   ```sh
+   npm install -g gatsby-cli
+   ```
+
+2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+
+   ```sh
+   nvm install
+   ```
+
+3. Install dependencies
+
+   ```sh
+   yarn
+   ```
+
+4. Start the development server
+
+   ```sh
+   npm start
+   ```
+
+## 🚀 Building and Running for Production
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
+   ```
+
+1. Preview the site as it will appear once deployed
+
+   ```sh
+   npm run serve
+   ```
+
+## 🎨 Color Reference
+
+| Color          | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
+| Light Navy     | ![#112240](https://via.placeholder.com/10/0a192f?text=+) `#112240` |
+| Lightest Navy  | ![#233554](https://via.placeholder.com/10/303C55?text=+) `#233554` |
+| Slate          | ![#8892b0](https://via.placeholder.com/10/8892b0?text=+) `#8892b0` |
+| Light Slate    | ![#a8b2d1](https://via.placeholder.com/10/a8b2d1?text=+) `#a8b2d1` |
+| Lightest Slate | ![#ccd6f6](https://via.placeholder.com/10/ccd6f6?text=+) `#ccd6f6` |
+| White          | ![#e6f1ff](https://via.placeholder.com/10/e6f1ff?text=+) `#e6f1ff` |
+| Green          | ![#64ffda](https://via.placeholder.com/10/64ffda?text=+) `#64ffda` |
